@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.button-primary {
+  padding: 0.5rem 1rem;
+  background-color: rgb(15, 40, 40);
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.title {
+  text-align: center;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.button-primary {
+  padding: 0.5rem 1rem;
+  background-color: rgb(15, 40, 40);
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+}
+
+.title {
+  text-align: center;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+}
+
+.form {
+  width: 100%;
+  max-width: 992px;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+}
+.form__input {
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  width: 100%;
+}
+.form__button {
+  width: max-content;
+  padding: 0.5rem 1rem;
+  background-color: rgb(15, 40, 40);
+  border: none;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid transparent;
+  transition: background-color 0.1s ease;
+  cursor: pointer;
+}
+.form__button:hover {
+  border: 1px solid rgb(15, 40, 40);
+  background-color: transparent;
+}
+
+.input {
+  @apply py-2 px-4 rounded-lg text-white border-2 border-transparent hover:border-2 hover:border-slate-600;
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.button-primary {
+  @apply px-4 py-2 my-4 bg-slate-700 text-white font-semibold capitalize rounded-xl cursor-pointer hover:bg-slate-600;
+}
+
+.button-secundary {
+  @apply px-4 py-2 my-4 bg-slate-600 text-white font-semibold capitalize rounded-xl cursor-pointer hover:bg-slate-500;
+}
+
+.form-container {
+  @apply fixed top-0 left-0 w-full min-h-screen flex justify-center items-center bg-slate-800;
+}
+
+.title {
+  @apply text-2xl font-bold;
+}
+
+.product {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,40 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'products';
+@import 'utilities';
+@import 'form';
+
+.input{
+
+    @apply py-2 px-4 rounded-lg text-white border-2 border-transparent hover:border-2 hover:border-slate-600 ;
+
+    background-color: rgba(255,255,255,.05)
+
+}
+
+.button-primary{
+    
+    @apply px-4 py-2 my-4 bg-slate-700 text-white font-semibold capitalize rounded-xl cursor-pointer hover:bg-slate-600;
+}
+
+.button-secundary{
+    
+    @apply px-4 py-2 my-4 bg-slate-600 text-white font-semibold capitalize rounded-xl cursor-pointer hover:bg-slate-500;
+}
+
+.form-container{
+
+    @apply fixed top-0 left-0 w-full min-h-screen flex justify-center items-center bg-slate-800;
+}
+
+.title{
+    @apply text-2xl font-bold;
+}
+
+.product{
+    background-color: rgba(255,255,255,.05)
+
+}

@@ -1,0 +1,26 @@
+
+
+$color-primary: rgb(15, 40, 40);
+
+.button-primary{
+    padding: .5rem 1rem;
+    background-color: $color-primary;
+    color: #fff;
+
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+
+}
+
+.title{
+    text-align: center;
+}
+
+input:focus,textarea:focus{
+
+    outline: none;
+
+}
